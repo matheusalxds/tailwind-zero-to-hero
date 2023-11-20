@@ -6,7 +6,7 @@ type Props = {
 };
 
 export const MenuItem = ({ label, children }: Props) => (
-  <div className="relative flex h-full items-center p-4 cursor-pointer font-bold text-pink-200 hover:text-zinc-200 hover:bg-white/10 transition-colors ease-in-out group">
+  <div className="group relative flex h-full cursor-pointer items-center p-4 font-bold text-pink-200 transition-colors ease-in-out hover:bg-white/10 hover:text-zinc-200">
     <span>{label}</span>
     {children}
   </div>

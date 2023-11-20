@@ -1,11 +1,10 @@
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NextPage } from 'next';
-
-import { MyFlowbite } from '@/pages/main/AnyPage';
-import '../../../src/app/globals.css';
 
 const MyOwnPage: NextPage = () => (
   <div>
-    <MyFlowbite />
+    <FontAwesomeIcon icon={faCoffee} />
   </div>
 );
 
