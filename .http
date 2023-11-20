@@ -1,0 +1,4 @@
+### Requests to api (CRUD)
+
+POST http://localhost:3000/api/hello
+Content-Type: application/json
