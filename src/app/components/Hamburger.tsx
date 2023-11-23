@@ -6,7 +6,7 @@ import { hamburgerVariants } from '@/styles/plugin/open-variants';
 
 export const Hamburger = () => {
   const [open, setOpen] = useState(false);
-  const { group, topItem, middleItem, bottomItem } = hamburgerVariants({ open });
+  const { group, topItem, middleItem, bottomItem, mobileMenu } = hamburgerVariants({ open });
 
   const handleClick = (visiblity: boolean) => {
     setOpen(() => visiblity);
@@ -19,6 +19,7 @@ export const Hamburger = () => {
         <div className={middleItem()}></div>
         <div className={bottomItem()}></div>
       </div>
+      <div className={mobileMenu()}>menu</div>
     </div>
   );
 };
