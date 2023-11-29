@@ -8,6 +8,10 @@ export default function Home() {
       <Header>
         <Navbar />
       </Header>
+      <div
+        style={{ backgroundImage: `url('/images/hero.jpg')` }}
+        className="flex h-[calc(100vh-200px)] min-h-[400px] flex-col items-center justify-center bg-cover bg-fixed bg-center"
+      ></div>
     </Main>
   );
 }
